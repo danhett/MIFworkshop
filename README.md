@@ -1,2 +1,3 @@
-# MIFworkshop
-Slides and content for my MIF rapid games design workshop
+# MIF Games Workshop
+
+Content to come.

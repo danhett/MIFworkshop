@@ -1,0 +1,130 @@
+<!--
+	MIF WORKSHOP
+	Powered by reveal.js
+	Everything else released under the DO WHAT THE FUCK YOU WANT TO public license.
+
+	Dan will be leading attendees through a rapid-fire high-energy games design workshop - there are no bad ideas in this session, but hundreds of fun ones. This workshop will cover:
+	- How to shake off the fear and start generating ideas bravely
+	- Why games thinking and design is a really exciting way of interrogating a subject
+	- How to re-assess something you think you know, and create something new and exciting
+
+	The workshop will culminate in an intense ideation session where all attendees will create at least ten (yes, you read that right) playable game prototypes, by remixing existing games or creating new playthings entirely from scratch! Strap in.
+-->
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title>MIF Games Design Workshop</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/danhett.css" id="theme">
+		<style type="text/css" media="screen">
+			.slides section.has-dark-background,
+			.slides section.has-dark-background h3 {
+				color: #fff;
+			}
+			.slides section.has-light-background,
+			.slides section.has-light-background h3 {
+				color: #000;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="">
+					<h1>HELLO</h1>
+				</section>
+
+				<section data-background-image="">
+					<h2>Dan Hett</h2>
+					<h4>TECHNOLOGIST/ARTIST</h4>
+					<aside class='notes'>
+						I'm somewhere in between a creative programmer and digital artist. Put another way - I write code for a living, but I absolutely regard myself as a creative who happens to use software, rather than a software guy who stumbled into art and design.
+					</aside>
+				</section>
+
+				<section>
+					<img class='stretch' src='assets/storytime.jpg'>
+					<aside class='notes'>
+						At this point my worlds started collide a little, when I scored a gig working at BBC Children's in the UK. This was a HUGE scale job, creating apps for millions and millions of users. Very high intensity and high pressure. And also, the projects were HUGE in scale sometimes, which seems like a great thing on paper. There's a certain sort of romantic idea around pouring your heart and soul into a huge project for years - the cameraderie of the tough challenge, the late night pizzas, the intense process - all that stuff. But to be honest, I know some people thrive in that sort of scenario, but it wasn't for me.</aside>
+				</section>
+
+				<section>
+					<img class='stretch' src='assets/bafta1.jpg'>
+					<aside class='notes'>I even won a BAFTA, and picked up a few nominations. I only ever saw the BAFTA once, but it exists...</aside>
+				</section>
+
+				<section>
+					<img class='stretch' src='assets/bafta2.jpg'>
+					<aside class='notes'>...but I didn't let it go to my head. So, while that was a cool place to work, it was a very nailed-down environment in terms of tech - which is understandable, you need solid stuff if it's going out to millions of users, and I had to really really have my shit together. But really, I'm not a very processey kind of guy - if I never see another JIRA ticket in my life I'll be a happy man.</aside>
+				</section>
+
+				<section>
+					<img class='stretch' src='assets/gamejam2.png'>
+					<aside class='notes'>However. Through my interest in videogames, and my wobbly new skills as a coder, I started writing games, and interactive stuff under my own steam. One of things that grew from this was me starting the Manchester Game Jam. [JAM SPEIL HERE] </aside>
+				</section>
+
+				<section>
+					<img class='stretch' src='assets/gamejam3.png'>
+					<aside class='notes'></aside>
+				</section>
+
+				<section>
+					<img class='stretch' src='assets/gamejam4.png'>
+					<aside class='notes'></aside>
+				</section>
+
+				<section>
+					<img class='stretch' src='assets/gamejam5.png'>
+					<aside class='notes'></aside>
+				</section>
+
+				<section>
+					<img class='stretch' src='assets/ludum.jpg'>
+					<aside class='notes'></aside>
+				</section>
+
+				<section>
+					<img class='stretch' src='assets/ludum.gif'>
+					<aside class='notes'></aside>
+				</section>
+
+			</div>
+		</div>
+
+		<script>
+			// Randomly selects a background for slides.
+			getRandomImage = function() {
+				return "assets/bg/bg" + Math.ceil(Math.random() * 82) + ".jpg"
+			}
+
+			var elems = document.body.getElementsByTagName("*");
+
+			for(var i = 0; i < elems.length; i++) {
+				if(elems[i].getAttribute("data-background-image") === "")
+					elems[i].setAttribute("data-background-image", getRandomImage());
+			}
+		</script>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+
+		<script>
+			Reveal.initialize({
+				center: true,
+				history: true,
+				progress: false,
+				controls: false,
+				showNotes: false,
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+				transitionSpeed: 'slow'
+			});
+
+		</script>
+
+	</body>
+</html>
